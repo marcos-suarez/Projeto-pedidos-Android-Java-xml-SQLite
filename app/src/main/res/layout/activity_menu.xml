@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lbUsuLogado_cli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbusuariologado" />
+
+    <ImageView
+        android:id="@+id/imgusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user" />
+
+    <Button
+        android:id="@+id/btusuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btusuarios"/>
+
+    <ImageView
+        android:id="@+id/imagclientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/costumer" />
+
+    <Button
+        android:id="@+id/btclientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btclientes" />
+
+    <ImageView
+        android:id="@+id/imagprodutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/product" />
+
+    <Button
+        android:id="@+id/btprodutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btprodutos" />
+
+    <ImageView
+        android:id="@+id/imgestoques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/stock" />
+
+    <Button
+        android:id="@+id/btestoques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btestoques" />
+
+    <ImageView
+        android:id="@+id/imgpedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/order" />
+
+    <Button
+        android:id="@+id/btpedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btpedidos" />
+
+</LinearLayout>

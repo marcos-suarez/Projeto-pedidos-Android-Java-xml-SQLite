@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbUsuLogado_cli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbusuariologado" />
+
+    <ImageView
+        android:id="@+id/imgestoques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/stock" />
+
+    <Button
+        android:id="@+id/btlistest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btlistarEstoques" />
+
+    <Button
+        android:id="@+id/btpesquisarest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btpesquisarEstoques" />
+
+    <Button
+        android:id="@+id/btnovo_est"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnovo_est" />
+
+</LinearLayout>
