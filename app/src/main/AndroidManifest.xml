@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.profalexandre.fatecmobile">
+    package="com.example.marcosAugusto.fatecmobile">
 
     <application
         android:debuggable="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".telas.LoginActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.LoginActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,102 +21,102 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".telas.usuarios.AddUsuActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.usuarios.AddUsuActivity"
             android:label="@string/title_activity_add_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.MenuActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.usuarios.ListUsuActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.usuarios.ListUsuActivity"
             android:label="@string/title_activity_list_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.usuarios.UptUsuActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.usuarios.UptUsuActivity"
             android:label="@string/title_activity_upt_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.usuarios.ListUsuParamActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.usuarios.ListUsuParamActivity"
             android:label="@string/title_activity_list_usu_param"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".telas.produtos.AddProdActivity"
+        <activity android:name="com.example.marcosAugusto.fatecmobile.telas.produtos.AddProdActivity"
             android:label="@string/title_activity_add_prod"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".telas.produtos.ListProdActivity"
+        <activity android:name="com.example.marcosAugusto.fatecmobile.telas.produtos.ListProdActivity"
             android:label="ListProdActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".telas.produtos.UptProActivity"
+        <activity android:name="com.example.marcosAugusto.fatecmobile.telas.produtos.UptProActivity"
             android:label="UptProActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".telas.produtos.ListProdPesqActivity"
+        <activity android:name="com.example.marcosAugusto.fatecmobile.telas.produtos.ListProdPesqActivity"
             android:label="@string/title_activity_list_prod_pesq"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.clientes.AddCliActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.clientes.AddCliActivity"
             android:label="@string/title_activity_add_cli"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.clientes.ListCliActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.clientes.ListCliActivity"
             android:label="@string/title_activity_list_cli"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.clientes.ListCliPesqActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.clientes.ListCliPesqActivity"
             android:label="@string/title_activity_list_cli_pesq"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.clientes.UptCliActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.clientes.UptCliActivity"
             android:label="@string/UptCliActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.estoques.AddEstActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.estoques.AddEstActivity"
             android:label="@string/title_activity_add_est"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.estoques.UptEstActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.estoques.UptEstActivity"
             android:label="@string/UptEstActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.estoques.ListEstActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.estoques.ListEstActivity"
             android:label="@string/title_activity_list_est"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.estoques.ListEstPesqActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.estoques.ListEstPesqActivity"
             android:label="@string/title_activity_list_est_pesq"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.clientes.MenuCliActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.clientes.MenuCliActivity"
             android:label="@string/title_activity_menu_cli"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.usuarios.MenuUsuActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.usuarios.MenuUsuActivity"
             android:label="@string/title_activity_menu_usu"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.produtos.MenuProdActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.produtos.MenuProdActivity"
             android:label="@string/title_activity_menu_prod"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.estoques.MenuEstActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.estoques.MenuEstActivity"
             android:label="@string/title_activity_menu_est"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.pedidos.MenuPedActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.pedidos.MenuPedActivity"
             android:label="@string/title_activity_menu_ped"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".telas.pedidos.AddPedActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.pedidos.AddPedActivity"
             android:label="@string/title_activity_add_ped"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.pedidos.UptPedActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.pedidos.UptPedActivity"
             android:label="@string/title_activity_upt_ped"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".telas.pedidos.ListPedActivity"
+            android:name="com.example.marcosAugusto.fatecmobile.telas.pedidos.ListPedActivity"
             android:label="@string/title_activity_list_ped"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".telas.pedidos.ListPedPesqActivity"
+        <activity android:name="com.example.marcosAugusto.fatecmobile.telas.pedidos.ListPedPesqActivity"
             android:label="@string/title_activity_list_ped_pesq"
             android:theme="@style/AppTheme.NoActionBar"/>
 

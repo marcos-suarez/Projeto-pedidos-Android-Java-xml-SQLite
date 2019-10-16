@@ -2,7 +2,7 @@ package com.example.enrico
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.example.profalexandre.fatecmobile.R
+import com.example.marcosAugusto.fatecmobile.R
 
 class MainActivity : AppCompatActivity() {
 
